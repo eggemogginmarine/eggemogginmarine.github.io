@@ -1,0 +1,54 @@
+html {
+    background-color: #e7fffe;
+}
+body {
+    font-family: "Noto Serif", serif;
+    color: #180927;
+    max-width: 50rem;
+    margin: auto;
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 50rem) {
+    body {
+        margin: 0 1rem;
+    }
+}
+h1 {
+    font-family: "Archivo Narrow";
+    font-weight: 700;
+    text-align: center;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    background-color: #1c2637;
+    color: #e7fffe;
+    padding: 0 1rem 0 1rem;
+}
+
+h2 {
+    font-family: "Archivo Narrow";
+    background-color: #1c2637;
+    color: #e7fffe;
+    font-size: 1.25rem;
+    padding-left: .5rem;
+    text-transform: uppercase;
+}
+
+.copy p {
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: bold;
+
+}
+.banner {
+    max-width: 100%;
+}
+.container {
+    padding: 0 1rem 0 1rem;
+    display: flex;
+    justify-content: space-around;
+}
