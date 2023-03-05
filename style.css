@@ -20,7 +20,6 @@ body {
 }
 h1 {
     font-family: "Archivo Narrow";
-    font-weight: 700;
     text-align: center;
     font-size: 2.5em;
     text-transform: uppercase;
@@ -31,6 +30,11 @@ h1 {
 
 h2 {
     font-family: "Archivo Narrow";
+    text-align: center; 
+}
+
+h3 {
+    font-family: "Archivo Narrow";
     background-color: #1c2637;
     color: #e7fffe;
     font-size: 1.25rem;
@@ -38,12 +42,6 @@ h2 {
     text-transform: uppercase;
 }
 
-.copy p {
-    text-align: center;
-    font-size: 1.25rem;
-    font-weight: bold;
-
-}
 .banner {
     max-width: 100%;
 }
